@@ -8,38 +8,38 @@ const startButton = document.getElementById("start");
 const azulejos = [];
 
 const reglas = [
-  { UP: 0, RIGHT: 1, DOWN: 1, LEFT: 0 }, // Tile 0
-  { UP: 1, RIGHT: 1, DOWN: 3, LEFT: 0 }, // Tile 1
-  { UP: 2, RIGHT: 1, DOWN: 1, LEFT: 0 }, // Tile 2
-  { UP: 1, RIGHT: 1, DOWN: 3, LEFT: 2 }, // Tile 3
-  { UP: 1, RIGHT: 3, DOWN: 1, LEFT: 0 }, // Tile 4
-  { UP: 3, RIGHT: 3, DOWN: 3, LEFT: 1 }, // Tile 5
-  { UP: 0, RIGHT: 1, DOWN: 0, LEFT: 3 }, // Tile 6
-  { UP: 0, RIGHT: 2, DOWN: 1, LEFT: 1 }, // Tile 7
-  { UP: 1, RIGHT: 0, DOWN: 0, LEFT: 3 }, // Tile 8
-  { UP: 1, RIGHT: 3, DOWN: 3, LEFT: 0 }, // Tile 9
-  { UP: 1, RIGHT: 0, DOWN: 1, LEFT: 1 }, // Tile 10
-  { UP: 0, RIGHT: 2, DOWN: 1, LEFT: 0 }, // Tile 11
-  { UP: 1, RIGHT: 1, DOWN: 1, LEFT: 2 }, // Tile 12
-  { UP: 0, RIGHT: 1, DOWN: 0, LEFT: 3 }, // Tile 13
-  { UP: 3, RIGHT: 1, DOWN: 1, LEFT: 3 }, // Tile 14
-  { UP: 1, RIGHT: 1, DOWN: 3, LEFT: 2 }, // Tile 15
-  { UP: 1, RIGHT: 1, DOWN: 1, LEFT: 0 }, // Tile 16
-  { UP: 3, RIGHT: 0, DOWN: 1, LEFT: 3 }, // Tile 17
-  { UP: 2, RIGHT: 3, DOWN: 0, LEFT: 0 }, // Tile 18
-  { UP: 1, RIGHT: 0, DOWN: 2, LEFT: 1 }, // Tile 19
-  { UP: 1, RIGHT: 1, DOWN: 0, LEFT: 1 }, // Tile 20
-  { UP: 0, RIGHT: 0, DOWN: 3, LEFT: 1 }, // Tile 21
-  { UP: 2, RIGHT: 1, DOWN: 0, LEFT: 1 }, // Tile 22
-  { UP: 0, RIGHT: 1, DOWN: 1, LEFT: 3 }, // Tile 23
-  { UP: 3, RIGHT: 0, DOWN: 2, LEFT: 1 }, // Tile 24
-  { UP: 1, RIGHT: 3, DOWN: 3, LEFT: 0 }, // Tile 25
-  { UP: 2, RIGHT: 0, DOWN: 0, LEFT: 3 }, // Tile 26
-  { UP: 1, RIGHT: 1, DOWN: 1, LEFT: 2 }, // Tile 27
-  { UP: 1, RIGHT: 2, DOWN: 3, LEFT: 1 }, // Tile 28
-  { UP: 1, RIGHT: 1, DOWN: 2, LEFT: 0 }, // Tile 29
-  { UP: 3, RIGHT: 3, DOWN: 3, LEFT: 3 }, // Tile 30
-  { UP: 1, RIGHT: 0, DOWN: 0, LEFT: 2 }, // Tile 31
+  { UP: 0, RIGHT: 1, DOWN: 0, LEFT: 0 }, // Tile 0
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 1 }, // Tile 1
+  { UP: 0, RIGHT: 1, DOWN: 0, LEFT: 0 }, // Tile 2
+  { UP: 0, RIGHT: 2, DOWN: 0, LEFT: 1 }, // Tile 3
+  { UP: 0, RIGHT: 3, DOWN: 0, LEFT: 0 }, // Tile 4
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 3 }, // Tile 5
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 0 }, // Tile 6
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 0 }, // Tile 7
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 0 }, // Tile 8
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 0 }, // Tile 9
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 0 }, // Tile 10
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 0 }, // Tile 11
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 0 }, // Tile 12
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 0 }, // Tile 13
+  { UP: 11, RIGHT: 0, DOWN: 0, LEFT: 0 }, // Tile 14
+  { UP: 0, RIGHT: 5, DOWN: 0, LEFT: 0 }, // Tile 15
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 2 }, // Tile 16
+  { UP: 0, RIGHT: 1, DOWN: 0, LEFT: 0 }, // Tile 17
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 1 }, // Tile 18
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 0 }, // Tile 19
+  { UP: 0, RIGHT: 1, DOWN: 0, LEFT: 0 }, // Tile 20
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 1 }, // Tile 21
+  { UP: 0, RIGHT: 4, DOWN: 0, LEFT: 0 }, // Tile 22
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 4 }, // Tile 23
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 0 }, // Tile 24
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 0 }, // Tile 25
+  { UP: 0, RIGHT: 1, DOWN: 0, LEFT: 0 }, // Tile 26
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 1 }, // Tile 27
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 5 }, // Tile 28
+  { UP: 0, RIGHT: 6, DOWN: 0, LEFT: 0 }, // Tile 29
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 6 }, // Tile 30
+  { UP: 0, RIGHT: 0, DOWN: 0, LEFT: 0 }, // Tile 31
 ];
 
 const NA = reglas.length; //numero de azulejos
